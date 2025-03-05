@@ -6,9 +6,6 @@ setwd("C:/Users/labo-maths/Desktop/FreSpeD-application")
 
 #sum_subject <- read_rds("Output/windowLen125-Welch1.rds")
 
-library(tibble)
-library(dplyr)
-library(readr)
 
 get_change_point_loc <- function(rds_file_path){
   sum_subject <- read_rds(rds_file_path)
